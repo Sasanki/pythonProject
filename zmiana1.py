@@ -1,0 +1,1 @@
+print("To jest zmiana 1")

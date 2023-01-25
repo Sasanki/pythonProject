@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI</title>
+    <script>
+      let waga = prompt("Podaj swoją wagę w kg", "0");
+        waga = parseInt (waga, 10);
+      let wzrost = prompt("Podaj swój wzrost w metrach", "0.00");
+        wzrost = parseInt (wzrost, 10);
+      let BMI = waga/wzrost ** 2;
+
+      if (BMI < 18.5) {
+      document.write ("Uwaga: masz niedowagę");
+        }
+      else if (BMI > 25) {
+      document.write ("Uwaga: masz nadwagę");
+        }
+      else {
+      document.write ("Twoja waga jest optymalna");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

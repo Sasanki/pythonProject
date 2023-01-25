@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Magiczna data</title>
+    <script>
+    let day = prompt("Podaj dzień miesiąca", "1");
+        day = parseInt (day, 10);
+    let month = prompt("Podaj miesiąc", "1");
+        month = parseInt (month, 10);
+    let year = prompt("Podaj rok", "00");
+        year = parseInt (year, 10);
+
+    let magic = day * month;
+
+    if (magic === year) {
+        document.write ("Ten rok był magiczny");
+        }
+    else {
+        document.write ("Ten rok nie był magiczny");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
